@@ -1,0 +1,5 @@
+# CPU 必要
+pycryptodome>=3.20
+numpy>=1.26
+# GPU（NVIDIA，CUDA 12 驅動）：[ctk] 會一併安裝 CUDA 元件，不必另裝 CUDA Toolkit
+cupy-cuda12x[ctk]>=14.0
